@@ -3,7 +3,7 @@ name = "ai-learning-copilot"
 version = "0.1.0"
 description = "Add your description here"
 readme = "README.md"
-requires-python = ">=3.14"
+requires-python = ">=3.11"
 dependencies = [
     "aiohappyeyeballs==2.6.2",
     "aiohttp==3.14.0",

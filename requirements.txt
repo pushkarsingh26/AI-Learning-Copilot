@@ -420,6 +420,7 @@ multidict==6.7.1
 narwhals==2.22.0
     # via
     #   altair
+    #   plotly
     #   scikit-learn
 nbclient==0.10.4
     # via
@@ -490,6 +491,7 @@ packaging==26.2
     #   langchain-core
     #   langsmith
     #   nbconvert
+    #   plotly
     #   streamlit
     #   transformers
 pandas==3.0.3
@@ -508,6 +510,8 @@ platformdirs==4.10.0
     # via
     #   ai-learning-copilot (pyproject.toml)
     #   jupyter-core
+plotly==6.8.0
+    # via ai-learning-copilot (pyproject.toml)
 prometheus-client==0.25.0
     # via
     #   ai-learning-copilot (pyproject.toml)
