@@ -3,7 +3,33 @@ import requests
 import pandas as pd
 import plotly.express as px
 
-API_URL = "http://127.0.0.1:8080"
+import os
+import subprocess
+import time
+import sys
+
+API_URL = os.getenv("API_URL", "http://127.0.0.1:8080")
+
+# Auto-start FastAPI backend if running on localhost and not already online
+if "127.0.0.1" in API_URL or "localhost" in API_URL:
+    try:
+        res = requests.get(f"{API_URL}/health", timeout=0.5)
+        backend_online = (res.status_code == 200)
+    except Exception:
+        backend_online = False
+
+    if not backend_online:
+        try:
+            subprocess.Popen(
+                [sys.executable, "-m", "uvicorn", "src.main:app", "--host", "127.0.0.1", "--port", "8080"],
+                stdout=subprocess.DEVNULL,
+                stderr=subprocess.DEVNULL
+            )
+            time.sleep(2.0)  # Give the backend a moment to spin up
+        except Exception as e:
+            print(f"Failed to auto-start backend: {e}")
+
+
 
 st.set_page_config(page_title="AI Learning Copilot", layout="wide", page_icon="🎓")
 
