@@ -332,8 +332,6 @@ Contributions are welcome! Here's how to get started:
 ## 👤 Author
 
 **Pushkar Chhokar**
-- 🎓 Enrollment No: `0827CS231204`
-- 📧 [puskarkumar230516@acropolis.in](mailto:puskarkumar230516@acropolis.in)
 - 🐙 [@pushkarsingh26](https://github.com/pushkarsingh26)
 
 ---
