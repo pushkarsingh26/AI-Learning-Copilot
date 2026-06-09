@@ -593,7 +593,6 @@ python-multipart==0.0.30
     # via streamlit
 pywinpty==3.0.3
     # via
-    #   ai-learning-copilot (pyproject.toml)
     #   jupyter-server
     #   jupyter-server-terminals
     #   terminado
