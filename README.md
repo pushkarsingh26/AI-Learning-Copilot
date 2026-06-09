@@ -15,6 +15,7 @@
 [![OpenRouter](https://img.shields.io/badge/OpenRouter-Gemma_3_27B-6C63FF?style=for-the-badge&logo=google&logoColor=white)](https://openrouter.ai)
 [![FAISS](https://img.shields.io/badge/FAISS-Vector_Search-00BFFF?style=for-the-badge&logo=meta&logoColor=white)](https://github.com/facebookresearch/faiss)
 [![License](https://img.shields.io/badge/License-MIT-22C55E?style=for-the-badge)](LICENSE)
+[![Live Demo](https://img.shields.io/badge/Live_Demo-Streamlit_Cloud-FF4B4B?style=for-the-badge&logo=streamlit&logoColor=white)](https://ai-learning-copilot-vknhansxzzrccw6prweg6s.streamlit.app/)
 
 <br/>
 
@@ -22,7 +23,7 @@
 
 <br/>
 
-[🚀 Quick Start](#-quick-start) • [✨ Features](#-features) • [🏗️ Architecture](#️-architecture) • [📡 API Reference](#-api-reference) • [🖥️ Screenshots](#️-app-pages) • [🤝 Contributing](#-contributing)
+[🌐 Live Demo](https://ai-learning-copilot-vknhansxzzrccw6prweg6s.streamlit.app/) • [🚀 Quick Start](#-quick-start) • [✨ Features](#-features) • [🏗️ Architecture](#️-architecture) • [📡 API Reference](#-api-reference) • [🖥️ Screenshots](#️-app-pages) • [🤝 Contributing](#-contributing)
 
 </div>
 
